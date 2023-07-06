@@ -1,4 +1,5 @@
 #!/bin/sh
-echo "gitleak hook runs"
+echo "Starting Gitleaks analysis"
 OUT=$(./.github/lib/gitleaks/gitleaks protect -v --staged)
+echo "outpuit--------------------------"
 echo "${OUT} -- result"
