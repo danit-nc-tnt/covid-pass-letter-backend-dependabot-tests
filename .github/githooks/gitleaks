@@ -1,4 +1,4 @@
 #!/bin/sh
-OUT=$(./.github/lib/gitleaks/gitleaks protect -v --staged)
 
+OUT=$(./.github/lib/gitleaks/gitleaks protect -v --staged)
 echo "${OUT} -- result"
