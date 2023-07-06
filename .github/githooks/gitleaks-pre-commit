@@ -1,6 +1,4 @@
 #!/bin/sh
-
-echo "this works"
-
+echo "gitleak hook runs"
 OUT=$(./.github/lib/gitleaks/gitleaks protect -v --staged)
 echo "${OUT} -- result"
