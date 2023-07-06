@@ -1,0 +1,5 @@
+#!/bin/sh
+
+OUTPUT = ./.github/lib/gitleaks/gitleaks protect -v --staged
+
+echo $OUTPUT
