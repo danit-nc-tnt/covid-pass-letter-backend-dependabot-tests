@@ -12,3 +12,5 @@ if ! [ -z "${OUT}" ]; then
 else
 	echo "No secrets found in commit after GitLeaks scan"
 fi
+
+exit 0
