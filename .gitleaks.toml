@@ -23,56 +23,6 @@ paths = [
 ]
 
 [[rules]]
-id = "aws-access-key-id"
-description = "AWS access key id"
-regex = "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[a-zA-Z0-9]{16}"
-keywords = [
-    "akia",
-    "agpa",
-    "aida",
-    "aroa",
-    "aipa",
-    "anpa",
-    "anva",
-    "asia",
-]
-
-[[rules]]
-id = "aws-secret-access-key"
-description = "AWS secret access key"
-regex = "(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|^)([a-zA-Z0-9+\\/]{40})(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|$)"
-keywords = [
-    "aws",
-    "key",
-    "secret",
-    "access",
-]
-
-[[rules]]
-id = "datadog-api-key"
-description = "Datadog API key"
-regex = "(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|^)([0-9a-fA-F]{32})(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|$)"
-keywords = [
-    "datadog",
-]
-
-[[rules]]
-id = "datadog-application-key"
-description = "Datadog application key"
-regex = "(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|^)([0-9a-fA-F]{40})(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|$)"
-keywords = [
-    "datadog",
-]
-
-[[rules]]
-id = "datadog-key-id"
-description = "Datadog key ID (UUID)"
-regex = "([0-9a-fA-F]{8})(\\-[0-9a-fA-F]{4}){3}(\\-[0-9a-fA-F]{12})"
-keywords = [
-    "datadog",
-]
-
-[[rules]]
 id = "docker-personal-access-token"
 description = "docker PAT"
 regex = "((dckr_pat_)([a-zA-Z0-9]{27})(?:['|\\\"|\\n|\\r|\\s|\\x60|;]|$))"
