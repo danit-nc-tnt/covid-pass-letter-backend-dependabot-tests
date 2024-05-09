@@ -29,7 +29,7 @@
     <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="6.0.10" />
     <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Npgsql" Version="6.0.7" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Npgsql.NodaTime" Version="6.0.7" />
     <PackageReference Include="PeterO.Cbor" Version="4.5.2" />
     <PackageReference Include="Polly" Version="7.2.3" />
